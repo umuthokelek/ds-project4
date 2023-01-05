@@ -8,7 +8,10 @@ public class Main {
         avlTree.add(40);
         avlTree.add(50);
         avlTree.add(25);
-
         avlTree.printPreOrder();
+
+        Trie trie = new Trie();
+        trie.insert("deneme");
+        
     }
 }
